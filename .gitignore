@@ -1,0 +1,17 @@
+# build outputs
+out/
+classes/
+*.dex
+*.aar
+classes.jar
+
+# local artifacts
+*.log
+*.png
+*.xml
+frida-server
+node_modules/
+
+# secrets — never commit these
+.env
+*.token
